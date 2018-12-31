@@ -1,7 +1,7 @@
 import React from 'react';
 import { Query } from 'react-apollo';
 import { gql } from 'apollo-boost';
-import NotFound from '../NotFound';
+import NotFound from '../lib/NotFound';
 
 const GET_USER = gql`
   {

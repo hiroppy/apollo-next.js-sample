@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container } from 'next/app';
+import Error from 'next/error';
 import Head from 'next/head';
 import { ApolloClient, HttpLink, InMemoryCache} from 'apollo-boost';
 import fetch from 'isomorphic-unfetch';
